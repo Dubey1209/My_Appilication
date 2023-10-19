@@ -100,7 +100,7 @@
         app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintVertical_bias="0.478" />
 
     <EditText
         android:id="@+id/button8"
@@ -148,13 +148,13 @@
         android:layout_height="48dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="524dp"
-        android:text=" Confirm Password"
-        android:inputType="textVisiblePassword"
+        android:background="@drawable/edittext_border"
         android:drawableLeft="@drawable/baseline_lock_24"
+        android:inputType="textVisiblePassword"
+        android:text=" Confirm Password"
         android:textAlignment="textStart"
         android:textColor="@color/white"
         app:cornerRadius="5dp"
-        android:background="@drawable/edittext_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -168,6 +168,8 @@
         android:layout_height="48dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="596dp"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
         android:text="Create Account"
         android:textColor="@color/white"
         app:cornerRadius="5dp"
@@ -240,5 +242,14 @@
         app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="@+id/editTextText"
         tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--------or--------"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="663dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
