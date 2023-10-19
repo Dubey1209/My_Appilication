@@ -13,7 +13,7 @@
         android:layout_width="96dp"
         android:layout_height="72dp"
         android:layout_marginStart="156dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="152dp"
 
         android:fontFamily="@font/dynalight"
         android:text="m"
@@ -144,13 +144,13 @@
         android:layout_height="48dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="388dp"
-        android:background="@color/black"
         android:drawableLeft="@drawable/baseline_email_24"
         android:text=" Email"
         android:inputType="textEmailAddress"
         android:textAlignment="textStart"
         android:textColor="@color/white"
         app:cornerRadius="5dp"
+        android:background="@drawable/edittext_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.373"
@@ -170,6 +170,7 @@
         android:textAlignment="textStart"
         android:textColor="@color/white"
         app:cornerRadius="5dp"
+        android:background="@drawable/edittext_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -241,5 +242,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-------or-------"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="660dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

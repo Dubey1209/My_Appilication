@@ -100,34 +100,7 @@
         app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.739" />
-
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="First  name"
-        android:textAlignment="center"
-        android:textColor="@color/design_default_color_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editTextText" />
-
-    <EditText
-        android:id="@+id/editTextText8"
-        android:layout_width="312dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Last name"
-        android:textAlignment="textStart"
-        android:textColor="@color/design_default_color_background"
-        app:layout_constraintStart_toEndOf="@+id/editTextText2"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintVertical_bias="0.521" />
 
     <EditText
         android:id="@+id/button8"
@@ -141,6 +114,7 @@
         android:textAlignment="textStart"
         android:textColor="@color/design_default_color_surface"
         app:cornerRadius="5dp"
+        android:background="@drawable/edittext_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -160,6 +134,7 @@
         android:textAlignment="textStart"
         android:textColor="@color/white"
         app:cornerRadius="5dp"
+        android:background="@drawable/edittext_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -179,6 +154,7 @@
         android:textAlignment="textStart"
         android:textColor="@color/white"
         app:cornerRadius="5dp"
+        android:background="@drawable/edittext_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -234,5 +210,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="First Name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_border"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="151dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Last Name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_border"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        tools:layout_editor_absoluteY="344dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
