@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="first_name">First Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account_login">Already have an account ? Login</string>
+    <string name="sign_up_with_google">Sign Up with Google</string>
+    <string name="or">--------or--------</string>
+    <string name="email">Email</string>
+    <string name="please_enter_your_email_address_and_password">Please enter your email address and password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="musico">Musico</string>
+    <string name="m">m</string>
+    <string name="m1">m</string>
+    <string name="musico1">Musico</string>
+    <string name="credential">Please enter your email address and Password</string>
+    <string name="password_forgot">Forgot Password?</string>
+    <string name="login_heading">Login</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_Up">Sign Up</string>
+    <string name="google_option">Continue With Google</string>
+    <string name="login_button">Login</string>
+    <string name="email_option">Email</string>
+    <string name="password_fill">Password</string>
+    <string name="password_forget">Forgot Password ?</string>
+    <string name="login_option">Login</string>
+    <string name="signup_option">Don\'t have an account ? Sign Up</string>
+    <string name="google_login">Continue with Google</string>
+    <string name="option">-------or-------</string>
+    <string name="login">Login</string>
 </resources>
